@@ -1,0 +1,43 @@
+------------ COMMANDES -------------
+flutter doctor
+flutter create my_app
+flutter run
+
+------------ STRUCTURE -------------
+
+lib/main.dart : Point d'entrée principal.
+pubspec.yaml : Gestion des dépendances et configurations.
+assets/ : Contient images, fonts et autres ressources.
+android/, ios/, web/ : Code spécifique aux plateformes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------ WIDGETS -------------
+2 familles de widget : StatelessWidget (sans état, apparence et contenu pas MAJ), StatefulWidget (avec état)
+
+un widget est écrit dans une classe.
+ Une classe seule peut juste faire de la gestion de données avec des fonctions à l'intérieur
+ super.key dans le constructeur aide Flutter à identifier les widgets et à éviter les reconstructions inutiles.
+
+Exemples de widget :
+
+1. Scaffold
+- widget de base qui fournit une structure par défaut pour une page visuelle dans Flutter
+- Gère les éléments essentiels : appbar, corps de page, navigation, boutons d'action, fond d'écran
+MaterialApp → Point d'entrée pour une app basée sur Material Design.
+
+2. AppBar : Une barre d'application en haut de l'écran.
+
+3. Drawer : Un menu latéral coulissant.
+
+----------------------------------
